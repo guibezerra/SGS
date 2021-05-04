@@ -1,1 +1,1 @@
-# projeto_nlw
+ # Sistema de Gerenciamento de Seminário
