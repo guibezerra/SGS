@@ -15,11 +15,15 @@ public class Seminario {
     }
 
     public void getAlunos() {
-        for (Aluno aluno: this.alunos) {
-            for (String result : aluno.getDadosAluno()) {
-                System.out.println(result);
+        if (this.alunos != null && this.alunos.length != 0) {
+            for (Aluno aluno : this.alunos) {
+                for (String result : aluno.getDadosAluno()) {
+                    System.out.println(result);
+                }
+                System.out.println();
             }
-            System.out.println();
+        } else {
+            System.out.println("Alunos não cadastrados no tema");
         }
     }
 
@@ -28,9 +32,14 @@ public class Seminario {
     }
 
     public void getLocalizacao() {
-        for (String localizacao : this.localizacao.getLocal()) {
-            System.out.println(localizacao);
+        if (this.localizacao != null) {
+            for (String localizacao : this.localizacao.getLocal()) {
+                System.out.println(localizacao);
+            }
+        } else {
+            System.out.println("Local não cadastrado");
         }
+
     }
 
     public void setProf(Professor prof) {
@@ -38,8 +47,12 @@ public class Seminario {
     }
 
     public void getProf() {
-        for (String prof : this.prof.getProfessor()) {
-            System.out.println(prof);
+        if (this.prof != null) {
+            for (String prof : this.prof.getProfessor()) {
+                System.out.println(prof);
+            }
+        } else {
+            System.out.println("Professor(a) não cadastrado");
         }
     }
 
@@ -48,21 +61,33 @@ public class Seminario {
     }
 
     public void imprimeDadosSeminario() {
-        System.out.println("Titulo: "+this.titulo);
+        System.out.println("Titulo: " + this.titulo);
         System.out.println("Componentes: ");
-        for (Aluno aluno : this.alunos) {
-            for (String result : aluno.getDadosAluno()) {
-                System.out.println(result);
+        if (this.alunos != null && this.alunos.length != 0) {
+            for (Aluno aluno : this.alunos) {
+                for (String result : aluno.getDadosAluno()) {
+                    System.out.println(result);
+                }
+                System.out.println();
             }
-            System.out.println();
+        } else {
+            System.out.println("Alunos não cadastrados");
         }
-        for (String prof : this.prof.getProfessor()) {
-            System.out.println(prof);
+        if (this.prof != null) {
+            for (String prof : this.prof.getProfessor()) {
+                System.out.println(prof);
+            }
+        } else {
+            System.out.println("Professor(a) não cadastrado");
         }
         System.out.println("Local: ");
-        for (String localizacao : this.localizacao.getLocal()) {
-            System.out.println(localizacao);
+        if (this.localizacao != null) {
+            for (String localizacao : this.localizacao.getLocal()) {
+                System.out.println(localizacao);
+            }
+        } else {
+            System.out.println("Local não cadastrado");
         }
-        System.out.println( );
+        System.out.println();
     }
 }

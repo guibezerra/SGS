@@ -21,11 +21,16 @@ public class Professor {
     }
 
     public void getSemi() {
-       for(Seminario seminario:this.semi) {
-           System.out.println(seminario.getTitulo());
+        if (this.semi != null && this.semi.length != 0) {
+            for(Seminario seminario:this.semi) {
+                System.out.println(seminario.getTitulo());
+            }
+            System.out.println();
+        } else {
+            System.out.println("Professor(a) ainda sem seminarios cadastrados");
+            System.out.println();
+        }
 
-       }
-        System.out.println();
     }
 
     public void imprimeProfessor() {
@@ -33,8 +38,12 @@ public class Professor {
         System.out.println("Especialidade: "+this.especialidade);
         System.out.println("Matricula: "+this.matricula);
         System.out.println("Seminarios: ");
-        for(Seminario seminario:this.semi) {
-            System.out.println(seminario.getTitulo());
+        if (this.semi != null && this.semi.length != 0) {
+            for(Seminario seminario:this.semi) {
+                System.out.println(seminario.getTitulo());
+            }
+        } else {
+            System.out.println("Professor(a) ainda sem seminarios cadastrados");
         }
     }
 }
