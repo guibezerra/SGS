@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b882098-74aa-42db-a2e4-0224e3632288" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SGS/Classes/Aluno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SGS/Classes/Local.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SGS/Classes/Professor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SGS/Classes/Seminario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SGS/Teste/teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Professor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Seminario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Seminario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Teste/teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Teste/teste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sistema_de_Gerenciamento_de_Seminario.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SGS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Local.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Classes/Seminario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema_de_Gerenciamento_de_Seminario/Teste/teste.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Local.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Seminario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Seminario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Teste/teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teste/teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -53,7 +61,7 @@
   <component name="RunManager">
     <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Teste.teste" />
-      <module name="Sistema_de_Gerenciamento_de_Seminario" />
+      <module name="SGS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Teste.*" />

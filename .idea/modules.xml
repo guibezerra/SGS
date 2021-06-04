@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Sistema_de_Gerenciamento_de_Seminario.iml" filepath="$PROJECT_DIR$/Sistema_de_Gerenciamento_de_Seminario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SGS.iml" filepath="$PROJECT_DIR$/SGS.iml" />
     </modules>
   </component>
 </project>

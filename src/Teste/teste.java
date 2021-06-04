@@ -5,14 +5,10 @@ import Classes.Local;
 import Classes.Professor;
 import Classes.Seminario;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class teste {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args)  {
         //Tema Engenharia da Computação
-        Local local1 = new Local("IV", "A", "A3","14:00","16/12/2021");
+        Local local1 = new Local("IV", "A", "A3","14:15","16/12/2021");
         Seminario seminario1 = new Seminario("Engenharia da Computação");
         Professor professor1 = new Professor("Tiago Barros", "Engenharia Eletrica", "201311CT");
         Aluno aluno1 = new Aluno ("Guilherme Bezerra ", "20160158307", "CET");

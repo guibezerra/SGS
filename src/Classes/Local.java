@@ -1,14 +1,11 @@
 package Classes;
 
-import javax.lang.model.element.NestingKind;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+
 
 public class Local {
     private String setor, bloco, sala, horario, data;
 
-    public Local(String setor, String bloco, String sala, String horario, String data) throws ParseException {
+    public Local(String setor, String bloco, String sala, String horario, String data) {
         this.setor = setor;
         this.bloco = bloco;
         this.sala = sala;
