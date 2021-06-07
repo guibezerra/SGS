@@ -1,4 +1,6 @@
 # Sistema de Gerenciamento de Seminario
+[[https://github.com/guibezerra/SGS/blob/main/statics/funcionalidadesSGS.png]]
+
 Assumindo uma situação hipotética, o presente sistema tem como objetivo gerenciar as apresentações do evento "amostra de profissões" na UFRN, onde este permitirá a visualização
 dos seminarios sobre um determinado curso, os alunos que irão apresenta-los, os professores responsáveis por cada seminário, e o local e horario de cada apresentação.
 ## Requisitos
