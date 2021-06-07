@@ -38,9 +38,12 @@ public class Aluno {
         System.out.println("Curso: " + this.curso);
         if (this.semi != null) {
             System.out.println("Seminario: " + this.semi.getTitulo());
+            System.out.println("Info local:");
+            this.semi.getLocalizacao();
         } else {
             System.out.println("Seminario: Tema não inserido");
         }
+
 
         System.out.println();
     }
