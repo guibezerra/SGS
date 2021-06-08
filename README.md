@@ -8,6 +8,7 @@ Anualmente, ocorre a amostra de profissões na Universidade Federal do Rio Grand
 
 ## Algumas Observações
 Para que o projeto rode em sua máquina, é necessario que se tenha instalado a JDk (Java Development Kit) em sua máquina. O link para obte-la está disponível abaixo: 
+
 https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
 ## Funcionalidades 
 
