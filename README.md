@@ -1,23 +1,16 @@
 # Sistema de Gerenciamento de Seminario
 ![visão geral](https://github.com/guibezerra/SGS/blob/main/statics/funcionalidadesSGS.png)
 
-Assumindo uma situação hipotética, o presente sistema tem como objetivo gerenciar as apresentações do evento "amostra de profissões" na UFRN, onde este permitirá a visualização
-dos seminarios sobre um determinado curso, os alunos que irão apresenta-los, os professores responsáveis por cada seminário, e o local e horario de cada apresentação.
-## Requisitos
-O sistema deverá cadastrar os seminários,  cadastrar os professores e cadastrar um local. Os requisitos do sistema são 
+## Sobre o projeto
+O presente sistema tem como objetivo consolidar os conhecimentos de associação e agregação de classes, utilizando a linguagem Java. Dessa forma, considerei a seguinte situação para construção do sistema: 
 
-•	Um aluno poderá estar em apenas um seminário. 
+Anualmente, ocorre a amostra de profissões na Universidade Federal do Rio Grande do Norte (UFRN), onde são realizados seminarios para apresentar os diversos cursos ofertados por ela. Cada seminário é apresentado em alguns dos espaços cedidos pela universidade (salas ou anfiteatros) e por um grupo de alunos, onde estes possuem um professor como seu responsável. Com base nisso, o sistema tem como proposta gerenciar as apresentações dos seminarios objetivando facilitar o cadastro e consulta de informações de cada um dos envolvidos no evento.
 
-•	Um seminário poderá ter nenhum ou vários alunos.
+## Algumas Observações
+Para que o projeto rode em sua máquina, é necessario que se tenha instalado a JDk (Java Development Kit) em sua máquina. O link para obte-la está disponível abaixo: 
+https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
+## Funcionalidades 
 
-•	Um professor poderá ministrar um ou vários seminários.
-
-•	Um seminário só poderá ter um professor. 
-
-•	Um seminário deverá ter um local.
-
-Além disso, um seminário deve ser identificado por seu titulo, o aluno deve ser identificado por nome, matricula e curso, o professor dever ser identificado por nome e 
-especialidade e o local é identificado por bloco e sala, além de conter a data e o horario da apresentação. 
 
 
 
